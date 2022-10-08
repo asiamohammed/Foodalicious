@@ -1,0 +1,564 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "type": "muffins",
+            "name": "sweet pineapple muffin",
+            "image": "images/Sweet-Pineapple-Buns.jpg",
+            "ingredients": [
+                "250g Wheat flour",
+                 "1/2 tsp Salt",
+                  "1/2 sachet Saf-instant yeast 11g",
+                  "1/4 tbsp Sugar",
+                  "25g Margarine",
+                  "1 Egg",
+                  "100ml Milk"
+            ],
+            "instructions": [
+                "Pour the lukewarm milk into a large mixing bowl and mix in the yeast.",
+                "Add the flour, salt, sugar, egg and margarine. Mix until the dough has an even consistency.",
+                "Knead for 5 minutes.",
+                "Cover and leave to rest for 30 minutes.",
+                "Divide the dough into 6 equal pieces.",
+                "Shape them into balls. Leave to rest for 10 minutes.",
+                "Roll out the dough to the same diameter as a small bowl.",
+                "Cover and leave to rise for 1 hour",
+                "Make holes in the dough with your fingers. Put small pieces of butter or margarine in the holes. Top with small pieces of pineapple and sprinkle with sugar.",
+                "Bake in the oven preheated to 210°C for 10 minutes."
+            ]
+
+        },
+        {
+              "id": 2,
+             "type": "muffins",
+            "name": "Chicken pot pie muffins",
+            "image": "images/chicken-pot-pie.jpg",
+            "ingredients": [
+                "1 store bought rotisserie chicken, cut up into bite size pieces",
+                 "11/2 cup diced onion",
+                  "Olive oil",
+                  "3/4 cup chicken broth",
+                  "1 cup frozen vegetables",
+                  "1Salt and pepper",
+                  "1/4 teaspoon thyme",
+                  "1 cup shredded cheese",
+                  "Canned biscuits or crescent rolls"
+
+            ],
+            "instructions": [
+                "Preheat oven to 400 degrees Place onions and splash of olive oil into large skillet .",
+                "Add in the chicken and chicken broth and bring to simmer.",
+                "Season with salt and pepper Add the vegetables and thyme. Heat until liquid is absorbed.",
+                "Cool for 5 minutes and stir in cheese.",
+                "Open your biscuits or crescent rolls. Mold biscuits or crescent rolls in the bottom of your PAN 12 cup muffin pan.",
+                "Spoon generous amount of chicken mixture into each well.",
+                "If you have extra filling, just bake it in separate container and top with any extra biscuits or crescents.",
+                "Bake 12-15 min or until the biscuits or crescents are browned and cooked through."
+                
+            ]
+        },
+        {
+              "id": 3,
+            "type": "muffins",
+            "name": "Banana chocolate chip muffins",
+            "image": "images/banana.jpg",
+            "ingredients": [
+                "1/2 cup unsalted butter",
+                 "1 cup granulated sugar",
+                  "2 eggs, lightly beaten",
+                  "4 bananas, mashed ",
+                  " 1/2 teaspoon vanilla extract ",
+                  "1 1/2 cups all purpose flour ",
+                  "1 teaspoon baking soda",
+                  "1/2 teaspoon salt ",
+                  "3/4 cup mini semi sweet chocolate chips",
+                  "sparkling sugar (for sprinkling on top)"
+
+            ],
+            "instructions": [
+                "Preheat oven to 350 degrees. Sift together the flour, baking soda, and salt and set aside.",
+                "In a large bowl, cream together your butter and sugar.",
+                "Once mixed well, add in the eggs, vanilla, and mashed banana.",
+                " Mix in the dry ingredients until just combined.",
+                "Stir in chocolate chips.",
+                "Divide batter among the wells of your 12 cup muffin pan.",
+                "Sprinkle the tops with sparkling sugar.",
+                " Bake in preheated oven for approximately 15-20 min, until the batter is no longer wet and the muffins are cooked through."
+                
+            ]
+        },
+        {
+              "id": 4,
+             "type": "noodles", 
+            "name": "Easy cheesy 2-minute noodles",
+            "image": "images/easy-cheesy-2-minute-noodles-136753-6.jpg",
+            "ingredients": [
+                "1 tbsp extra virgin olive oil",
+                 "20g butter",
+                 "1 brown onion, finely chopped",
+                  "4 middle bacon rashers, trimmed, roughly chopped",
+                  " 1 tbsp plain flour ",
+                  "4 x 72g packets Maggi 2 Minute Noodles Chicken Flavourr",
+                  "2 cups milk",
+                  "1 cup frozen peas ",
+                  "1 cup grated Devondale Colby Cheese Block (500g)",
+                  "1 tsp lemon zest"
+
+            ],
+            "instructions": [
+                "Add flour and 2 of the chicken flavour sachets from noodles to pan (discard remaining flavour sachets).",
+                "Cook, stirring, for 1 minute.",
+                "Reduce heat to medium. Gradually stir in milk and 2 cups water. Bring to a simmer.",
+                " Add noodles . Cook, stirring occasionally to break up noodles, for 2 minutes or until noodles are tender..",
+                "Add peas and cheese . Cook for a further 1 to 2 minutes or until peas are bright green and tender.",
+                "Add parsley and lemon zest to reserved onion mixture. Season with salt and pepper. Toss to combine..",
+                "Remove noodles from heat.",
+                "Sprinkle with onion mixture. Serve."
+                
+            ]
+        },
+        {
+              "id": 5,
+              "type": "noodles", 
+            "name": "Slow cooker chicken chow mein noodles",
+            "image": "images/slow-cooker-chicken-chow-mein-171636-1.jpg",
+            "ingredients": [
+                "250ml (1 cup) Massel Chicken Style Liquid Stock",
+                 "2 tbsp soy sauce",
+                 "2 tsp sesame oil",
+                  "1 brown onion, cut into thin wedges",
+                  " 1 large carrot, peeled, halved lengthways, sliced ",
+                  "2 chicken marylands, skin removed",
+                  "3 tsp cornflour",
+                  "250g dried egg noodles",
+                  "100g snow peas, halved diagonally",
+                  "410g can baby corn spears, drained, halved",
+                  "Chopped fresh coriander leaves, to serve"
+
+            ],
+            "instructions": [
+                "Combine stock , soy sauce , oyster sauce , sesame oil and ginger in a slow cooker.",
+                " Add the onion , carrot and chicken.",
+                "Cover and cook for 5 hours on LOW, turning chicken halfway through cooking, if possible..",
+                "Remove the chicken from the slow cooker and place on a chopping board.",
+                "Turn the slow cooker to HIGH.",
+                " Combine cornflour with 1 tablespoon water, stirring until smooth.",
+                "Stir into the liquid in slow cooker. Cover and cook for 15 minutes.",
+                "Meanwhile, cook noodles in a large saucepan of boiling water for 3 minutes, adding the snow peas for the last 1 minute of cooking time.",
+                "Drain and run under cold water. Set aside",
+                "Use a fork to shred chicken from the bone.",
+                "Add the chicken, noodles, snow peas and corn to the slow cooker. Use tongs to toss to combine.",
+                "Sprinkle the chow mein with coriander to serve."
+            ]
+        },
+          {
+              "id": 6,
+              "type": "noodles", 
+            "name": "15-minute chicken and corn noodles soup",
+            "image": "images/15-minute-chicken-and-corn-noodle-soup-148898-2.jpg",
+            "ingredients": [
+                "2 x 300g cans creamed corn",
+                 "750ml (3 cups) Massel chicken style liquid stock",
+                 "400g chicken breast, thinly sliced",
+                  "2 x 69g pkts chicken wholegrain instant noodles, broken",
+                  " 2-3 green shallots, sliced, plus extra sliced, to serve "
+                  
+            ],
+            "instructions": [
+                "Combine the creamed corn and chicken stock in a large saucepan over medium-high heat. Bring to a simmer.",
+                " Add the chicken and simmer, stirring, for 2 minutes.",
+                "Add the noodles, discarding flavour sachet, and simmer for a further 4 minutes or until the chicken is cooked through and the noodles are soft.",
+                "Add the shallot and cook for 1 minute.",
+                "Divide the soup among serving bowls and serve with extra shallot.",
+                "Combine cornflour with 1 tablespoon water, stirring until smooth."
+            
+            ]
+        },
+           {
+              "id": 7,
+              "type": "Curry",
+            "name": "Tamarind and coconut fish curry",
+            "image": "images/tamarind-and-coconut-fish-curry-75185-2.jpg",
+            "ingredients": [
+                "2 tbs coconut oil",
+                 "4 whole dried chillies",
+                 "1 tbs brown mustard seeds",
+                  "1/2tbs coriander seeds, lightly crushed",
+                  " 2 sprigs fresh curry leaves, leaves picked, plus extra sprigs to serve",
+                  "1 onion, thinly sliced",
+                  "3 garlic cloves, crushed",
+                  "1½ tsp ground turmeric",
+                  "½ tbs tomato paste",
+                  "400ml coconut milk",
+                  "300ml fish or vegetable stock",
+                  "1½ tbs tamarind puree",
+                  "600g skinless chunky fish fillets (such as blue eye or ling), cut into 5cm pieces",
+                  "150g cherry tomatoes, halved",
+                  "150g cherry tomatoes, halved"
+
+
+                  
+            ],
+            "instructions": [
+                "Heat coconut oil in a large heavy-based saucepan over a medium-low heat.",
+                "Add dried chillies and mustard and coriander seeds, and cook for 1-2 minutes until fragrant and seeds start to pop.",
+                "Add curry leaves, onion and garlic, then increase heat to medium and cook, stirring occasionally, for 5 minutes or until onions are soft.",
+                "Add turmeric and tomato paste and cook, stirring, for a further 2 minutes.",
+                "Stir in coconut milk and stock, and bring to a simmer. Cook for 5 minutes or until sauce has thickened slightly and flavours have developed. Stir through tamarind.",
+                "add fish and simmer for 5 minutes or until fish is just cooked through. Stir through cherry tomato and coriander leaves (reserving a few sprigs to serve) to combine.",
+                 "To serve, divide rice among serving bowls, spoon over curry, scatter with remaining curry leaves and reserved coriander sprigs, and serve with lime wedges."
+            ]
+        },
+         {
+              "id": 8,
+            "type": "Curry",
+            "name": "Darren Robertson's warming chicken curry",
+            "image": "images/chicken-curry-77024-1.jpg",
+            "ingredients": [
+                "2 tsp each cumin & coriander seeds, toasted",
+                 "1 tsp fennel seeds, toasted",
+                 "1 tsp garam masala (Indian spice mix)",
+                  "1/3 cup (80ml) ghee (substitute sunflower oil)",
+                  " 3 curry leaf sprigs",
+                  "2 onions, chopped",
+                  "3 garlic cloves, crushed",
+                  "1½ tsp ground turmeric",
+                  "½ tbs tomato paste",
+                  "400ml coconut milk",
+                  "300ml fish or vegetable stock",
+                  "1½ tbs tamarind puree",
+                  "600g skinless chunky fish fillets (such as blue eye or ling), cut into 5cm pieces",
+                  "150g cherry tomatoes, halved",
+                  "150g cherry tomatoes, halved"
+
+
+                  
+            ],
+            "instructions": [
+                "Heat coconut oil in a large heavy-based saucepan over a medium-low heat.",
+                "Add dried chillies and mustard and coriander seeds, and cook for 1-2 minutes until fragrant and seeds start to pop.",
+                "Add curry leaves, onion and garlic, then increase heat to medium and cook, stirring occasionally, for 5 minutes or until onions are soft.",
+                "Add turmeric and tomato paste and cook, stirring, for a further 2 minutes.",
+                "Stir in coconut milk and stock, and bring to a simmer. Cook for 5 minutes or until sauce has thickened slightly and flavours have developed. Stir through tamarind.",
+                "add fish and simmer for 5 minutes or until fish is just cooked through. Stir through cherry tomato and coriander leaves (reserving a few sprigs to serve) to combine.",
+                 "To serve, divide rice among serving bowls, spoon over curry, scatter with remaining curry leaves and reserved coriander sprigs, and serve with lime wedges."
+            ]
+        },
+         {
+              "id": 9,
+              "type": "Curry",
+            "name": "Butter chicken curry",
+            "image": "images/one-pot-butter-chicken-with-dill-yoghurt-46876-2.jpg",
+            "ingredients": [
+                "2 tsp each cumin & coriander seeds, toasted",
+                 "1 tsp fennel seeds, toasted",
+                 "1 tsp garam masala (Indian spice mix)",
+                  "1/3 cup (80ml) ghee (substitute sunflower oil)",
+                  " 3 curry leaf sprigs",
+                  "2 onions, chopped",
+                  "3 garlic cloves, crushed",
+                  "1½ tsp ground turmeric",
+                  "½ tbs tomato paste",
+                  "400ml coconut milk",
+                  "300ml fish or vegetable stock",
+                  "1½ tbs tamarind puree",
+                  "600g skinless chunky fish fillets (such as blue eye or ling), cut into 5cm pieces",
+                  "150g cherry tomatoes, halved",
+                  "150g cherry tomatoes, halved"
+
+
+                  
+            ],
+            "instructions": [
+                "Heat coconut oil in a large heavy-based saucepan over a medium-low heat.",
+                "Add dried chillies and mustard and coriander seeds, and cook for 1-2 minutes until fragrant and seeds start to pop.",
+                "Add curry leaves, onion and garlic, then increase heat to medium and cook, stirring occasionally, for 5 minutes or until onions are soft.",
+                "Add turmeric and tomato paste and cook, stirring, for a further 2 minutes.",
+                "Stir in coconut milk and stock, and bring to a simmer. Cook for 5 minutes or until sauce has thickened slightly and flavours have developed. Stir through tamarind.",
+                "add fish and simmer for 5 minutes or until fish is just cooked through. Stir through cherry tomato and coriander leaves (reserving a few sprigs to serve) to combine.",
+                 "To serve, divide rice among serving bowls, spoon over curry, scatter with remaining curry leaves and reserved coriander sprigs, and serve with lime wedges."
+            ]
+        },
+         {
+            "id": 10,
+            "type": "muffins",
+            "name": "chocolate muffins",
+            "image": "recipe/images/chocolatemuffin.jpeg",
+            "ingredients": [
+                "250g Wheat flour",
+                 "1/2 tsp Salt",
+                  "1/2 sachet Saf-instant yeast 11g",
+                  "1/4 tbsp Sugar",
+                  "25g Margarine",
+                  "1 Egg",
+                  "100ml Milk"
+            ],
+            "instructions": [
+                "Pour the lukewarm milk into a large mixing bowl and mix in the yeast.",
+                "Add the flour, salt, sugar, egg and margarine. Mix until the dough has an even consistency.",
+                "Knead for 5 minutes.",
+                "Cover and leave to rest for 30 minutes.",
+                "Divide the dough into 6 equal pieces.",
+                "Shape them into balls. Leave to rest for 10 minutes.",
+                "Roll out the dough to the same diameter as a small bowl.",
+                "Cover and leave to rise for 1 hour",
+                "Make holes in the dough with your fingers. Put small pieces of butter or margarine in the holes. Top with small pieces of pineapple and sprinkle with sugar.",
+                "Bake in the oven preheated to 210°C for 10 minutes."
+            ]
+
+        },
+        {
+            "id": 11,
+            "type": "muffins",
+            "name": "vanilla muffins",
+            "image":"recipe/images/vanillamuffins.jpeg",
+            "ingredients": [
+                "1 store bought rotisserie chicken, cut up into bite size pieces",
+                 "11/2 cup diced onion",
+                  "Olive oil",
+                  "3/4 cup chicken broth",
+                  "1 cup frozen vegetables",
+                  "1Salt and pepper",
+                  "1/4 teaspoon thyme",
+                  "1 cup shredded cheese",
+                  "Canned biscuits or crescent rolls"
+
+            ],
+            "instructions": [
+                "Preheat oven to 400 degrees Place onions and splash of olive oil into large skillet .",
+                "Add in the chicken and chicken broth and bring to simmer.",
+                "Season with salt and pepper Add the vegetables and thyme. Heat until liquid is absorbed.",
+                "Cool for 5 minutes and stir in cheese.",
+                "Open your biscuits or crescent rolls. Mold biscuits or crescent rolls in the bottom of your PAN 12 cup muffin pan.",
+                "Spoon generous amount of chicken mixture into each well.",
+                "If you have extra filling, just bake it in separate container and top with any extra biscuits or crescents.",
+                "Bake 12-15 min or until the biscuits or crescents are browned and cooked through."
+                
+            ]
+        },
+        {
+              "id": 12,
+              "type": "muffins",
+            "name": "Blueberry muffins",
+            "image": "recipe/images/blueberrymuffins.jpeg",
+            "ingredients": [
+                "1/2 cup unsalted butter",
+                 "1 cup granulated sugar",
+                  "2 eggs, lightly beaten",
+                  "4 bananas, mashed ",
+                  " 1/2 teaspoon vanilla extract ",
+                  "1 1/2 cups all purpose flour ",
+                  "1 teaspoon baking soda",
+                  "1/2 teaspoon salt ",
+                  "3/4 cup mini semi sweet chocolate chips",
+                  "sparkling sugar (for sprinkling on top)"
+
+            ],
+            "instructions": [
+                "Preheat oven to 350 degrees. Sift together the flour, baking soda, and salt and set aside.",
+                "In a large bowl, cream together your butter and sugar.",
+                "Once mixed well, add in the eggs, vanilla, and mashed banana.",
+                " Mix in the dry ingredients until just combined.",
+                "Stir in chocolate chips.",
+                "Divide batter among the wells of your 12 cup muffin pan.",
+                "Sprinkle the tops with sparkling sugar.",
+                " Bake in preheated oven for approximately 15-20 min, until the batter is no longer wet and the muffins are cooked through."
+                
+            ]
+        },
+         {
+              "id": 13,
+             "type": "noodles", 
+            "name": "Chinese stir fried noodles",
+            "image": "recipe/images/chinesestirfried.jpeg",
+            "ingredients": [
+                "1 tbsp extra virgin olive oil",
+                 "20g butter",
+                 "1 brown onion, finely chopped",
+                  "4 middle bacon rashers, trimmed, roughly chopped",
+                  " 1 tbsp plain flour ",
+                  "4 x 72g packets Maggi 2 Minute Noodles Chicken Flavourr",
+                  "2 cups milk",
+                  "1 cup frozen peas ",
+                  "1 cup grated Devondale Colby Cheese Block (500g)",
+                  "1 tsp lemon zest"
+
+            ],
+            "instructions": [
+                "Add flour and 2 of the chicken flavour sachets from noodles to pan (discard remaining flavour sachets).",
+                "Cook, stirring, for 1 minute.",
+                "Reduce heat to medium. Gradually stir in milk and 2 cups water. Bring to a simmer.",
+                " Add noodles . Cook, stirring occasionally to break up noodles, for 2 minutes or until noodles are tender..",
+                "Add peas and cheese . Cook for a further 1 to 2 minutes or until peas are bright green and tender.",
+                "Add parsley and lemon zest to reserved onion mixture. Season with salt and pepper. Toss to combine..",
+                "Remove noodles from heat.",
+                "Sprinkle with onion mixture. Serve."
+                
+            ]
+        },
+        {
+              "id": 14,
+              "type": "noodles", 
+            "name": "Vegetable noodles",
+            "image": "recipe/images/vegetablenoodles.jpeg",
+            "ingredients": [
+                "250ml (1 cup) Massel Chicken Style Liquid Stock",
+                 "2 tbsp soy sauce",
+                 "2 tsp sesame oil",
+                  "1 brown onion, cut into thin wedges",
+                  " 1 large carrot, peeled, halved lengthways, sliced ",
+                  "2 chicken marylands, skin removed",
+                  "3 tsp cornflour",
+                  "250g dried egg noodles",
+                  "100g snow peas, halved diagonally",
+                  "410g can baby corn spears, drained, halved",
+                  "Chopped fresh coriander leaves, to serve"
+
+            ],
+            "instructions": [
+                "Combine stock , soy sauce , oyster sauce , sesame oil and ginger in a slow cooker.",
+                " Add the onion , carrot and chicken.",
+                "Cover and cook for 5 hours on LOW, turning chicken halfway through cooking, if possible..",
+                "Remove the chicken from the slow cooker and place on a chopping board.",
+                "Turn the slow cooker to HIGH.",
+                " Combine cornflour with 1 tablespoon water, stirring until smooth.",
+                "Stir into the liquid in slow cooker. Cover and cook for 15 minutes.",
+                "Meanwhile, cook noodles in a large saucepan of boiling water for 3 minutes, adding the snow peas for the last 1 minute of cooking time.",
+                "Drain and run under cold water. Set aside",
+                "Use a fork to shred chicken from the bone.",
+                "Add the chicken, noodles, snow peas and corn to the slow cooker. Use tongs to toss to combine.",
+                "Sprinkle the chow mein with coriander to serve."
+            ]
+        },
+          {
+              "id": 15,
+              "type": "noodles", 
+            "name": "Soy sauce pan fried noodles",
+            "image": "recipe/images/soysauce.jpeg",
+            "ingredients": [
+                "2 x 300g cans creamed corn",
+                 "750ml (3 cups) Massel chicken style liquid stock",
+                 "400g chicken breast, thinly sliced",
+                  "2 x 69g pkts chicken wholegrain instant noodles, broken",
+                  " 2-3 green shallots, sliced, plus extra sliced, to serve "
+                  
+            ],
+            "instructions": [
+                "Combine the creamed corn and chicken stock in a large saucepan over medium-high heat. Bring to a simmer.",
+                " Add the chicken and simmer, stirring, for 2 minutes.",
+                "Add the noodles, discarding flavour sachet, and simmer for a further 4 minutes or until the chicken is cooked through and the noodles are soft.",
+                "Add the shallot and cook for 1 minute.",
+                "Divide the soup among serving bowls and serve with extra shallot.",
+                "Combine cornflour with 1 tablespoon water, stirring until smooth."
+            
+            ]
+        },
+        {
+              "id": 16,
+            "type": "Curry",
+            "name": "Chicken curry",
+            "image": "recipe/images/chicken-curry-77024-1.jpg",
+            "ingredients": [
+                "2 tbs coconut oil",
+                 "4 whole dried chillies",
+                 "1 tbs brown mustard seeds",
+                  "1/2tbs coriander seeds, lightly crushed",
+                  " 2 sprigs fresh curry leaves, leaves picked, plus extra sprigs to serve",
+                  "1 onion, thinly sliced",
+                  "3 garlic cloves, crushed",
+                  "1½ tsp ground turmeric",
+                  "½ tbs tomato paste",
+                  "400ml coconut milk",
+                  "300ml fish or vegetable stock",
+                  "1½ tbs tamarind puree",
+                  "600g skinless chunky fish fillets (such as blue eye or ling), cut into 5cm pieces",
+                  "150g cherry tomatoes, halved",
+                  "150g cherry tomatoes, halved"
+
+
+                  
+            ],
+            "instructions": [
+                "Heat coconut oil in a large heavy-based saucepan over a medium-low heat.",
+                "Add dried chillies and mustard and coriander seeds, and cook for 1-2 minutes until fragrant and seeds start to pop.",
+                "Add curry leaves, onion and garlic, then increase heat to medium and cook, stirring occasionally, for 5 minutes or until onions are soft.",
+                "Add turmeric and tomato paste and cook, stirring, for a further 2 minutes.",
+                "Stir in coconut milk and stock, and bring to a simmer. Cook for 5 minutes or until sauce has thickened slightly and flavours have developed. Stir through tamarind.",
+                "add fish and simmer for 5 minutes or until fish is just cooked through. Stir through cherry tomato and coriander leaves (reserving a few sprigs to serve) to combine.",
+                 "To serve, divide rice among serving bowls, spoon over curry, scatter with remaining curry leaves and reserved coriander sprigs, and serve with lime wedges."
+            ]
+        },
+         {
+              "id": 17,
+            "type": "Curry",
+            "name": "Egg curry",
+            "image": "recipe/images/eggcurry.jpeg",
+            "ingredients": [
+                "2 tsp each cumin & coriander seeds, toasted",
+                 "1 tsp fennel seeds, toasted",
+                 "1 tsp garam masala (Indian spice mix)",
+                  "1/3 cup (80ml) ghee (substitute sunflower oil)",
+                  " 3 curry leaf sprigs",
+                  "2 onions, chopped",
+                  "3 garlic cloves, crushed",
+                  "1½ tsp ground turmeric",
+                  "½ tbs tomato paste",
+                  "400ml coconut milk",
+                  "300ml fish or vegetable stock",
+                  "1½ tbs tamarind puree",
+                  "600g skinless chunky fish fillets (such as blue eye or ling), cut into 5cm pieces",
+                  "150g cherry tomatoes, halved",
+                  "150g cherry tomatoes, halved"
+
+
+                  
+            ],
+            "instructions": [
+                "Heat coconut oil in a large heavy-based saucepan over a medium-low heat.",
+                "Add dried chillies and mustard and coriander seeds, and cook for 1-2 minutes until fragrant and seeds start to pop.",
+                "Add curry leaves, onion and garlic, then increase heat to medium and cook, stirring occasionally, for 5 minutes or until onions are soft.",
+                "Add turmeric and tomato paste and cook, stirring, for a further 2 minutes.",
+                "Stir in coconut milk and stock, and bring to a simmer. Cook for 5 minutes or until sauce has thickened slightly and flavours have developed. Stir through tamarind.",
+                "add fish and simmer for 5 minutes or until fish is just cooked through. Stir through cherry tomato and coriander leaves (reserving a few sprigs to serve) to combine.",
+                 "To serve, divide rice among serving bowls, spoon over curry, scatter with remaining curry leaves and reserved coriander sprigs, and serve with lime wedges."
+            ]
+        },
+         {
+              "id": 18,
+              "type": "Curry",
+            "name": "Keema curry",
+            "image": "recipe/images/keemacurry.jpeg",
+            "ingredients": [
+                "2 tsp each cumin & coriander seeds, toasted",
+                 "1 tsp fennel seeds, toasted",
+                 "1 tsp garam masala (Indian spice mix)",
+                  "1/3 cup (80ml) ghee (substitute sunflower oil)",
+                  " 3 curry leaf sprigs",
+                  "2 onions, chopped",
+                  "3 garlic cloves, crushed",
+                  "1½ tsp ground turmeric",
+                  "½ tbs tomato paste",
+                  "400ml coconut milk",
+                  "300ml fish or vegetable stock",
+                  "1½ tbs tamarind puree",
+                  "600g skinless chunky fish fillets (such as blue eye or ling), cut into 5cm pieces",
+                  "150g cherry tomatoes, halved",
+                  "150g cherry tomatoes, halved"
+
+
+                  
+            ],
+            "instructions": [
+                "Heat coconut oil in a large heavy-based saucepan over a medium-low heat.",
+                "Add dried chillies and mustard and coriander seeds, and cook for 1-2 minutes until fragrant and seeds start to pop.",
+                "Add curry leaves, onion and garlic, then increase heat to medium and cook, stirring occasionally, for 5 minutes or until onions are soft.",
+                "Add turmeric and tomato paste and cook, stirring, for a further 2 minutes.",
+                "Stir in coconut milk and stock, and bring to a simmer. Cook for 5 minutes or until sauce has thickened slightly and flavours have developed. Stir through tamarind.",
+                "add fish and simmer for 5 minutes or until fish is just cooked through. Stir through cherry tomato and coriander leaves (reserving a few sprigs to serve) to combine.",
+                 "To serve, divide rice among serving bowls, spoon over curry, scatter with remaining curry leaves and reserved coriander sprigs, and serve with lime wedges."
+            ]
+        }
+    
+    ]
+  
+}
