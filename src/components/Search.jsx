@@ -41,8 +41,6 @@ const FormStyle= styled.form`
         border-radius:1rem;
         width:100%;
         outline; none;
-
-
      }
      svg{
         position: absolute;
