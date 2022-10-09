@@ -25,7 +25,17 @@ const DetailedWrapper = styled.div`
     display: flex;
     .active {
       background: linear-gradient(35deg, #494949, #313131);
+      color: white;
     } 
+    h2{
+      margin-bottom: 2rem;
+    }
+    li{
+      font-size: 1.2 rem;
+      line-height: 2.5rem;
+    
+    }
+    
 `
 
 export default Recipe;
