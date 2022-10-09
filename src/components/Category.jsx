@@ -1,5 +1,5 @@
 import {TbSoup} from 'react-icons/tb';
-import {GiNoodles,GiCupcake} from 'react-icons/gi';
+import {GiCupcake} from 'react-icons/gi';
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 
@@ -15,11 +15,7 @@ function Category() {
         <TbSoup/>
         <h4>Curry</h4>
       </SLink>
-      <SLink to= "/Noodels">
-        <GiNoodles/>
-        <h4>Noodles</h4>
-      </SLink>
-      
+     
     </List>
   );
 }
