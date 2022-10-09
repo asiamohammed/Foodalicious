@@ -42,7 +42,7 @@ const FormStyle= styled.form`
         width:100%;
         outline; none;
 
-        
+
      }
      svg{
         position: absolute;
