@@ -2,10 +2,11 @@ import {useEffect , useState} from 'react'
 import styled from 'styled-components';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
+import { Wrapper } from './Popular';
 
 
-function Popular() {
-  const [popular, setPopular] = useState([]);
+function Drinks() {
+  const [drinks, setDrinks] = useState([]);
  
   
   useEffect(() => {
@@ -13,26 +14,27 @@ function Popular() {
     
       .then((response) => response.json())
       .then((recipes) => {
-        setPopular(recipes);
+        setDrinks(recipes);
       });
   }, []);
-
-   
+ 
 
   return (
     <div>
       <Wrapper>
-        <h3>Delicious Recipes</h3>
+        <h3>Drinks</h3>
         <Splide 
         options={{
           perPage: 4,
           arrows: true,
           pagination:true,
           drag: "free",
-          gap: "2rem",
+          gap: "-5rem",
 
         }}>
-        {popular.map((recipe) => {
+          
+      {drinks.filter((drinks) => drinks.type ==="drinks")
+          .map((recipe) => {
           return(
             <SplideSlide key={recipe.id}>
            <Card>
@@ -50,10 +52,7 @@ function Popular() {
     
   );
 }
-export const Wrapper = styled.div `
-  margin: 4rem 0rem;
-`;
- const Card = styled.div `
+const Card = styled.div `
 min-height: 25rem;
 border-radius: 2rem;
 overflow: hidden;
@@ -63,12 +62,13 @@ display: block;
 img{
     border-radius: 2rem;
     left: 0;
-    width:  410px;
-    height: 300px;
+    width:  350px;
+    height: 350px;
     object-fit: cover;
     position: absolute,
     margin-right: 0px;
     align-items: left
+    zoom: -10;
     
 }
 p{
@@ -86,15 +86,10 @@ p{
     justify-content: center;
     align-items: center;
     position: absolute;
-  top: 8px;
-  left: 16px;
+  top: 70px;
+  left: -60px;
 
  
  }
 `;  
-
-
-
-
-
-export default Popular;
+export default Drinks;

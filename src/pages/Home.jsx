@@ -1,15 +1,12 @@
 import Popular from "../components/Popular"
-import Favourites from "../components/Favourites";
-
-
-
+import Drinks from "../components/Drinks";
 
 function Home() {
   return (
     <div>
       
     <Popular />
-    <Favourites />
+    <Drinks/>
     </div>
   );
 }
