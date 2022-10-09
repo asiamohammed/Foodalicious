@@ -1,5 +1,6 @@
 import {useEffect , useState} from 'react'
 import styled from 'styled-components';
+import {Link} from 'react-router-dom'
 
 function Curry() {
   
@@ -21,10 +22,11 @@ function Curry() {
           return(
             
            <Card key={recipe.id}>
+            <Link to ={'/recipe/' + recipe.id}>
             
             <img src={recipe.image} alt={recipe.name} />
             <p>{recipe.name}</p>
-            
+            </Link>
            </Card>
         
 

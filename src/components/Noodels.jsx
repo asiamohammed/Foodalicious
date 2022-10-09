@@ -1,6 +1,7 @@
 import {useEffect , useState} from 'react'
 import styled from 'styled-components';
 import { Grid, Card } from './Curry';
+import {Link} from 'react-router-dom'
 
 function Noodels() {
     const [noodles, setNoodles] = useState([]);
@@ -22,10 +23,10 @@ function Noodels() {
           return(
             
            <Card key={recipe.id}>
-            
+            <Link to ={'/recipe/' + recipe.id}>
             <img src={recipe.image} alt={recipe.name} />
             <p>{recipe.name}</p>
-            
+            </Link>
            </Card>
         
 

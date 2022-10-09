@@ -31,6 +31,7 @@ const FormStyle= styled.form`
      position: relative;
      width; 100%;
      }
+     
      input{
         border:none;
         background: linear-gradient(35deg, #494949, #313131);

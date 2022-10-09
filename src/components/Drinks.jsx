@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import { Wrapper } from './Popular';
+import {Link} from 'react-router-dom'
 
 
 function Drinks() {
@@ -38,10 +39,10 @@ function Drinks() {
           return(
             <SplideSlide key={recipe.id}>
            <Card>
-            
+            <Link to ={'/recipe/' + recipe.id}>
             <img src={recipe.image} alt={recipe.name} />
             <p>{recipe.name}</p>
-            
+            </Link>
            </Card>
            </SplideSlide>
           );

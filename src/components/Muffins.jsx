@@ -1,5 +1,6 @@
 import {useEffect , useState} from 'react'
 import { Grid, Card } from './Curry';
+import {Link} from 'react-router-dom'
 
 function Muffins() {
  const [muffins, setMuffins] = useState([]);
@@ -21,10 +22,10 @@ function Muffins() {
           return(
             
            <Card key={recipe.id}>
-            
+            <Link to ={'/recipe/' + recipe.id}>
             <img src={recipe.image} alt={recipe.name} />
             <p>{recipe.name}</p>
-            
+            </Link>
            </Card>
         
 
