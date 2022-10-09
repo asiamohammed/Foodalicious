@@ -29,3 +29,7 @@ h3 {
   line-height: 2.5rem;
   margin: 2rem 0rem;
 }
+h1 {
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+}
