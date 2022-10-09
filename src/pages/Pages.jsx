@@ -5,6 +5,7 @@ import Noodels from "../components/Muffins";
 import Curry from "../components/Curry";
 import { Route, Routes} from "react-router-dom";
 import Searched from "./Searched";
+import Recipe from "./Recipe";
 
 function Pages() {
   return (
