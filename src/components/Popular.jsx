@@ -24,7 +24,8 @@ function Popular() {
         {popular.map((recipe) => {
           return(
            <Card>
-            
+            <p>{recipe.type}</p>
+            <img src={recipe.image} alt={recipe.name} />
            </Card>
           );
         })}
