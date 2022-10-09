@@ -16,7 +16,6 @@ function Searched() {
     setSearchedRecipe(recipes)
  };
 
- 
   
   useEffect(() => {
     getSearched(params.search);
