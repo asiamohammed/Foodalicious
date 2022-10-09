@@ -17,7 +17,7 @@ function Recipe() {
     < DetailedWrapper>
     <div>
       <h2>{recipe.name}</h2>
-      <img src={recipe.image} alt=''/>
+      <img src= {recipe.image} alt=''/>
     </div>
     <Info>
 <Button>Ingredients</Button>
