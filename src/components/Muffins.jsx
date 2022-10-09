@@ -7,7 +7,7 @@ function Muffins() {
  
   
   useEffect(() => {
-    fetch("http://localhost:3000/recipes" , { method: "GET"})
+    fetch("https://calm-journey-09295.herokuapp.com/recipes" , { method: "GET"})
     
       .then((response) => response.json())
       .then((recipes) => {

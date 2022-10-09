@@ -11,7 +11,7 @@ function Searched() {
 
  const getSearched = async (name) => {
 
-    const data = await fetch('http://localhost:3000/recipes/${params.name}');
+    const data = await fetch('https://calm-journey-09295.herokuapp.com/recipes');
     const recipes = await data.json();
     setSearchedRecipe(recipes)
  };
