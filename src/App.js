@@ -7,6 +7,7 @@ function App() {
      <Pages />
     </div>
   );
+
 }
 
 export default App;
