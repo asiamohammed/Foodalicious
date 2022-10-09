@@ -21,7 +21,11 @@ function Recipe() {
 }
 const DetailedWrapper = styled.div`
     margin-top: 10rem;
-    margin-bottom: 5rem;   
+    margin-bottom: 5rem;  
+    display: flex;
+    .active {
+      background: linear-gradient(35deg, #494949, #313131);
+    } 
 `
 
 export default Recipe;
