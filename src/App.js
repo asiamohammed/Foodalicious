@@ -6,7 +6,7 @@ import Search from './components/Search';
 function App() {
   return (
     <div className="App">
-      <p>Foodaliciuos</p>
+      <p>Foodalicious</p>
       <BrowserRouter>
       <Search/>
      <Category/>
