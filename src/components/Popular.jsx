@@ -28,6 +28,7 @@ function Popular() {
           perPage: 4,
           arrows: true,
           pagination:true,
+        
           drag: "free",
           gap: "2rem",
 
