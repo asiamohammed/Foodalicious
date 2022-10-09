@@ -35,7 +35,18 @@ const DetailedWrapper = styled.div`
       line-height: 2.5rem;
     
     }
-    
+    ul{
+      margin-top: 2rem
+    }
+
+`;
+const Button = styled.button`
+padding: 1rem 2rem;
+color: #313131;
+background; white;
+
+
 `
+
 
 export default Recipe;
