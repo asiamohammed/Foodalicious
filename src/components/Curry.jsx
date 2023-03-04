@@ -17,7 +17,7 @@ function Curry() {
  
   return (
     <Grid>
-       {curry.filter((currry) => currry.type ==="Curry")
+       {curry.filter((currry) => currry.variety ==="Curry")
           .map((recipe) => {
           return(
             

@@ -1,8 +1,8 @@
 {
     "recipes": [
         {
-            "id": 1,
-            "type": "muffins",
+        
+            "variety": "muffins",
             "name": "sweet pineapple muffin",
             "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,ar_16:9,w_1024/v1/img/recipes/37/67/39/picVmQlje.jpg",
             "ingredients": [
@@ -29,8 +29,8 @@
 
         },
         {
-              "id": 2,
-             "type": "muffins",
+        
+             "variety": "muffins",
             "name": "Chicken pot pie muffins",
             "image": "https://images-gmi-pmc.edge-generalmills.com/f8012f2f-2f9e-49b0-aa3d-5d9470c7e2c0.jpg",
             "ingredients": [
@@ -58,8 +58,8 @@
             ]
         },
         {
-              "id": 3,
-            "type": "muffins",
+            
+            "variety": "muffins",
             "name": "Banana chocolate chip muffins",
             "image": "https://preppykitchen.com/wp-content/uploads/2021/02/Banana-Chocolate-Chip-Muffins-feature-1.jpg",
             "ingredients": [
@@ -89,8 +89,8 @@
         },
     
            {
-              "id": 4,
-              "type": "Curry",
+              
+              "variety": "Curry",
             "name": "Tamarind and coconut fish curry",
             "image": "https://myfoodstory.com/wp-content/uploads/2021/08/spicy-fish-curry-with-coconut-and-tamarind-6-500x500.jpg",
             "ingredients": [
@@ -124,8 +124,8 @@
             ]
         },
          {
-              "id": 5,
-            "type": "Curry",
+            
+            "variety": "Curry",
             "name": "Darren Robertson's warming chicken curry",
             "image": "https://img.delicious.com.au/xNc4HB_Q/del/2017/10/split-pea-dhal-with-curry-leaf-cucumber-and-mint-53469-2.jpg",
             "ingredients": [
@@ -159,8 +159,8 @@
             ]
         },
          {
-              "id": 6,
-              "type": "Curry",
+            
+            "variety": "Curry",
             "name": "Butter chicken curry",
             "image": "https://www.simplyrecipes.com/thmb/1SXZ_F1GC6ww_ppWnrdbKgHi9fQ=/2000x1333/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__01__Butter-Chicken-LEAD-2-6ca76f24bbe74114a09958073cb9c76f.jpg",
             "ingredients": [
@@ -194,8 +194,8 @@
             ]
         },
          {
-            "id": 7,
-            "type": "muffins",
+            
+            "variety": "muffins",
             "name": "chocolate muffins",
             "image": "https://marshasbakingaddiction.com/wp-content/uploads/2016/01/nutella-stuffed-double-chocolate-muffins-7.jpg",
             "ingredients": [
@@ -222,8 +222,8 @@
 
         },
         {
-            "id": 8,
-            "type": "muffins",
+            
+            "variety": "muffins",
             "name": "vanilla muffins",
             "image":"http://www.foodfromportugal.com/content/uploads/2015/01/orange-vanilla-muffins-01.jpg",
             "ingredients": [
@@ -251,8 +251,8 @@
             ]
         },
         {
-              "id": 9,
-              "type": "muffins",
+              
+            "variety": "muffins",
             "name": "Blueberry muffins",
             "image": "https://www.recipetineats.com/wp-content/uploads/2019/11/Blueberry-Muffins_4-SQ.jpg",
             "ingredients": [
@@ -282,8 +282,8 @@
         },
         
         {
-              "id": 10,
-            "type": "Curry",
+            
+            "variety": "Curry",
             "name": "Chicken curry",
             "image": "https://www.whiskaffair.com/wp-content/uploads/2022/03/Bihari-Chicken-Curry-2-3.jpg",
             "ingredients": [
@@ -317,8 +317,8 @@
             ]
         },
          {
-              "id": 11,
-            "type": "Curry",
+            
+            "variety": "Curry",
             "name": "Egg curry",
             "image": "https://www.foodandwine.com/thmb/fk15CzVNG1LViNKj5WQtDXKl3Kk=/1779x1334/smart/filters:no_upscale()/Keralan-Egg-Curry-FT-RECIPE1021-62581259e7654b0ca3be00885845b592.jpg",
             "ingredients": [
@@ -352,8 +352,8 @@
             ]
         },
          {
-              "id": 12,
-              "type": "Curry",
+              
+            "variety": "Curry",
             "name": "Keema curry",
             "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2018/08/mutton-keema-recipe.jpg",
             "ingredients": [
@@ -387,8 +387,8 @@
             ]
         },
         {
-            "id": 13,
-            "type": "drinks",
+            
+            "variety": "drinks",
             "name": "Abate Nero",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRckvp4WxsnWk8oHjHnm4HTnu_a-1bJhmLVPNTm0vOh--fO5327MPNNLs_VmUbpKXNrQG0&usqp=CAU",
             "ingredients": [
@@ -407,8 +407,8 @@
 
         },
         {
-            "id": 14,
-            "type": "drinks",
+        
+            "variety": "drinks",
             "name": "Aloha",
             "image": "https://hips.hearstapps.com/hmg-prod/images/drinks-to-avoid-1621959532.jpg?crop=0.668xw:1.00xh;0.151xw,0&resize=640:*",
             "ingredients": [
@@ -427,8 +427,8 @@
 
         },
         {
-            "id": 15,
-            "type": "drinks",
+            
+            "variety": "drinks",
             "name": "Amarecano",
             "image": "https://www.acouplecooks.com/wp-content/uploads/2021/02/Painkiller-Cocktail-008.jpg",
             "ingredients": [
@@ -447,8 +447,8 @@
 
         },
           {
-            "id": 16,
-            "type": "drinks",
+            
+            "variety": "drinks",
             "name": "Amarecano Amore Mio",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0TDaAO-sXmVdMRVexnSmEP1eXzwpe4Hpv1sIXTi-ipwgKy_bBzqorcg0gW-pg5RNUeuM&usqp=CAU",
             "ingredients": [
@@ -467,8 +467,8 @@
 
         },
          {
-            "id": 17,
-            "type": "drinks",
+            
+            "variety": "drinks",
             "name": "Amarena Black Forest",
             "image": "https://static.onecms.io/wp-content/uploads/sites/39/2020/06/17/smoky-peach-bourbon-slushie-ru333439.jpg",
             "ingredients": [
@@ -487,8 +487,8 @@
 
         },
         {
-            "id": 18,
-            "type": "drinks",
+        
+            "variety": "drinks",
             "name": "Amarena Blanche",
             "image": "https://drinkch.rokka.io/new-composition-600/7c3ade.jpg",
             "ingredients": [
@@ -507,8 +507,8 @@
 
         },
          {
-            "id": 19,
-            "type": "drinks",
+            
+            "variety": "drinks",
             "name": "Amarena Breakfast",
             "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-191017-brunch-punch-0210-landscape-pf-1649601124.jpg?crop=0.673xw:1.00xh;0.228xw,0&resize=640:*",
             "ingredients": [
@@ -527,8 +527,8 @@
 
         },
         {
-            "id": 20,
-            "type": "drinks",
+            
+            "variety": "drinks",
             "name": "Amarena Caipiroska",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Ijm6YA0eZtYrvwtYMmVHtXV6-Rwk5atYSuYw8Wo_CNTw22_-LwSiICkFEdM9FGBQiVo&usqp=CAU",
             "ingredients": [

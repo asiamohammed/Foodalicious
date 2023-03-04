@@ -10,7 +10,7 @@ function App() {
       
     <h1>Foodalicious</h1> 
       <BrowserRouter>
-      <Search/>
+      
      <Category/>
      <Pages />
      </BrowserRouter>

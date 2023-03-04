@@ -34,7 +34,7 @@ function Drinks() {
 
         }}>
           
-      {drinks.filter((drinks) => drinks.type ==="drinks")
+      {drinks.filter((drinks) => drinks.variety==="drinks")
           .map((recipe) => {
           return(
             <SplideSlide key={recipe.id}>

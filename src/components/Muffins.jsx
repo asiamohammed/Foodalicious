@@ -17,7 +17,7 @@ function Muffins() {
  
   return (
     <Grid>
-       {muffins.filter((muffin) => muffin.type ==="muffins")
+       {muffins.filter((muffin) => muffin.variety ==="muffins")
           .map((recipe) => {
           return(
             
