@@ -7,7 +7,7 @@ function Category() {
   return (
     <List>
       
-      <SLink to= "/">
+      <SLink to= "">
         <GiCupcake/>
         <h4>Home</h4>
       </SLink>
