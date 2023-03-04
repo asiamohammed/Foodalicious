@@ -7,6 +7,10 @@ function Category() {
   return (
     <List>
       
+      <SLink to= "/Home">
+        <GiCupcake/>
+        <h4>Home</h4>
+      </SLink>
       <SLink to= "/Muffins">
         <GiCupcake/>
         <h4>Muffins</h4>
