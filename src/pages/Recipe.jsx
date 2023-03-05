@@ -7,7 +7,7 @@ function Recipe() {
 
   const getSearched = async (name) => {
 
-    const data = await fetch(`http://localhost:3000/recipes/${params.id}`);
+    const data = await fetch(`http://localhost:3000/recipes/${params.name}`);
     const recipes = await data.json();
     setSearchedRecipe(recipes)
  };
@@ -16,7 +16,7 @@ function Recipe() {
   useEffect(() => {
     getSearched();
     
-  }, [params.id]);
+  }, [params.name]);
   
   // useEffect(() => {
   //   fetch(`http://localhost:3000/recipes/${params.id}` , { method: "GET"})
