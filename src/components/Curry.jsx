@@ -1,6 +1,7 @@
 import {useEffect , useState} from 'react'
 import styled from 'styled-components';
 import {Link} from 'react-router-dom'
+import {RiDeleteBinLine} from 'react-icons/ri';
 
 function Curry() {
   
@@ -26,6 +27,7 @@ function Curry() {
             
             <img src={recipe.image} alt={recipe.name} />
             <p>{recipe.name}</p>
+            <RiDeleteBinLine/>
             </Link>
            </Card>
         
