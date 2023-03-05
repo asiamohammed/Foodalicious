@@ -11,7 +11,7 @@ import {AiOutlinePlusCircle} from 'react-icons/ai';
 function Muffins() {
 
 
-   const handleDelete = () => {
+   const handleDelete = (id) => {
     const [recipes, setRecipes] = useState([]);
     fetch(`http://localhost:9292/recipe/${id}`, {
       method: 'DELETE',
@@ -42,8 +42,8 @@ function Muffins() {
             <img src={recipe.image} alt={recipe.name} />
             <p>{recipe.name}</p>
             </Link>
-            <Button onClick={handleDelete} >🗑</Button>
-            {/* <IconButton onClick={handleDelete} > <RiDeleteBinLine/> </IconButton> */}
+            {/* <Button onClick={handleDelete} >🗑</Button> */}
+            <IconButton onClick={handleDelete} > <RiDeleteBinLine/> </IconButton>
             <AiOutlinePlusCircle/>
            </Card>
         
