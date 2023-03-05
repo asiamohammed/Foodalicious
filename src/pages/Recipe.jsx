@@ -6,7 +6,7 @@ function Recipe() {
  
   
   useEffect(() => {
-    fetch("http://localhost:3000/recipes" , { method: "GET"})
+    fetch(`http://localhost:3000/recipes/${params.id}` , { method: "GET"})
     
       .then((response) => response.json())
       .then((recipes) => {
