@@ -4,6 +4,8 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import { Wrapper } from './Popular';
 import {Link} from 'react-router-dom'
+import {RiDeleteBinLine} from 'react-icons/ri';
+import {AiOutlinePlusCircle} from 'react-icons/ai';
 
 
 function Drinks() {
@@ -43,6 +45,7 @@ function Drinks() {
             <img src={recipe.image} alt={recipe.name} />
             <p>{recipe.name}</p>
             </Link>
+            <RiDeleteBinLine/> <AiOutlinePlusCircle/>
            </Card>
            </SplideSlide>
           );
