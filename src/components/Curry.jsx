@@ -2,6 +2,7 @@ import {useEffect , useState} from 'react'
 import styled from 'styled-components';
 import {Link} from 'react-router-dom'
 import {RiDeleteBinLine} from 'react-icons/ri';
+import {AiOutlinePlusCircle} from 'react-icons/ai';
 
 function Curry() {
   
@@ -29,7 +30,7 @@ function Curry() {
             <p>{recipe.name}</p>
             
             </Link>
-            <RiDeleteBinLine/>
+            <RiDeleteBinLine/> <AiOutlinePlusCircle/>
            </Card>
         
 
