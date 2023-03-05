@@ -19,13 +19,13 @@ function Recipe() {
 //   }, [params.name]);
   
   useEffect(() => {
-    fetch(`http://localhost:3000/recipes/${params.id}` , { method: "GET"})
+    fetch(`http://localhost:9292/recipe/${id}` , { method: "GET"})
     
       .then((response) => response.json())
       .then((recipes) => {
         setRecipe(recipes);
       });
-  }, [params.id]);
+  }, []);
   return (
     < DetailedWrapper>
     <div>

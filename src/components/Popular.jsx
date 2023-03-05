@@ -10,7 +10,7 @@ function Popular() {
  
   
   useEffect(() => {
-    fetch("http://localhost:3000/recipes" , { method: "GET"})
+    fetch("http://localhost:9292/recipe" , { method: "GET"})
     
       .then((response) => response.json())
       .then((recipes) => {
