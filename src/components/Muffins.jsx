@@ -12,12 +12,13 @@ function Muffins() {
 
 
    const handleDelete = (id) => {
-    const [recipes, setRecipes] = useState([]);
-    fetch(`http://localhost:9292/recipe/${id}`, {
-      method: 'DELETE',
-    });
-    const updatedRecipes = recipes.filter((recipe) => recipe.id !== id);
-    setRecipes(updatedRecipes);
+    console.log("delete")
+    // const [recipes, setRecipes] = useState([]);
+    // fetch(`http://localhost:9292/recipe/${id}`, {
+    //   method: 'DELETE',
+    // });
+    // const updatedRecipes = recipes.filter((recipe) => recipe.id !== id);
+    // setRecipes(updatedRecipes);
   };
 
  const [muffins, setMuffins] = useState([]);
