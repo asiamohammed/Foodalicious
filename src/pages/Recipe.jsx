@@ -5,27 +5,27 @@ function Recipe() {
    const [recipe, setRecipe] = useState([]);
   let params = useParams();
 
-  const getSearched = async (name) => {
+//   const getSearched = async (name) => {
 
-    const data = await fetch(`http://localhost:3000/recipes/${params.name}`);
-    const recipes = await data.json();
-    setSearchedRecipe(recipes)
- };
+//     const data = await fetch(`http://localhost:3000/recipes/${params.name}`);
+//     const recipes = await data.json();
+//     setSearchedRecipe(recipes)
+//  };
 
+  
+//   useEffect(() => {
+//     getSearched();
+    
+//   }, [params.name]);
   
   useEffect(() => {
-    getSearched();
+    fetch(`http://localhost:3000/recipes/${params.id}` , { method: "GET"})
     
-  }, [params.name]);
-  
-  // useEffect(() => {
-  //   fetch(`http://localhost:3000/recipes/${params.id}` , { method: "GET"})
-    
-  //     .then((response) => response.json())
-  //     .then((recipes) => {
-  //       setRecipe(recipes);
-  //     });
-  // }, []);
+      .then((response) => response.json())
+      .then((recipes) => {
+        setRecipe(recipes);
+      });
+  }, [params.id]);
   return (
     < DetailedWrapper>
     <div>
