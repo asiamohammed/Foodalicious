@@ -43,7 +43,7 @@ function Muffins() {
             <p>{recipe.name}</p>
             </Link>
             {/* <Button onClick={handleDelete} >🗑</Button> */}
-            <IconButton onClick = { () =>handleDelete(id)} > <RiDeleteBinLine/> </IconButton>
+            <Button onClick = { () =>handleDelete(id)} > <RiDeleteBinLine/> </Button>
             <AiOutlinePlusCircle/>
            </Card>
         
