@@ -8,7 +8,7 @@ function Curry() {
     const [curry, setCurry] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/recipes" , { method: "GET"})
+    fetch("http://localhost:9292/recipe" , { method: "GET"})
     
       .then((response) => response.json())
       .then((recipes) => {
