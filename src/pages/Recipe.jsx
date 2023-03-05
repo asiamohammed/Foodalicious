@@ -1,9 +1,9 @@
 import {useEffect, useState} from 'react'
 import styled from 'styled-components';
-
+import {useParams} from 'react-router-dom' 
 function Recipe() {
    const [recipe, setRecipe] = useState([]);
- 
+  let params = useParams();
   
   useEffect(() => {
     fetch(`http://localhost:3000/recipes/${params.id}` , { method: "GET"})
