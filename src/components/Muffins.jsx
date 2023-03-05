@@ -2,6 +2,7 @@ import {useEffect , useState} from 'react'
 import { Grid, Card } from './Curry';
 import {Link} from 'react-router-dom'
 import {RiDeleteBinLine} from 'react-icons/ri';
+import {AiOutlinePlusCircle} from 'react-icons/ai';
 
 function Muffins() {
  const [muffins, setMuffins] = useState([]);
@@ -27,7 +28,7 @@ function Muffins() {
             <img src={recipe.image} alt={recipe.name} />
             <p>{recipe.name}</p>
             </Link>
-            <RiDeleteBinLine/>
+            <RiDeleteBinLine/> <AiOutlinePlusCircle/>
            </Card>
         
 
