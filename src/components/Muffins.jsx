@@ -42,7 +42,7 @@ function Muffins() {
             <img src={recipe.image} alt={recipe.name} />
             <p>{recipe.name}</p>
             </Link>
-            <Button onClick={handleDelete} > <RiDeleteBinLine/> </Button>
+            <IconButton onClick={handleDelete} > <RiDeleteBinLine/> </IconButton>
             <AiOutlinePlusCircle/>
            </Card>
         
