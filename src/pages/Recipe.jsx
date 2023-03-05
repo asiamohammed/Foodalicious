@@ -4,15 +4,28 @@ import {useParams} from 'react-router-dom'
 function Recipe() {
    const [recipe, setRecipe] = useState([]);
   let params = useParams();
+
+  const getSearched = async (name) => {
+
+    const data = await fetch(`http://localhost:3000/recipes/${params.id}`);
+    const recipes = await data.json();
+    setSearchedRecipe(recipes)
+ };
+
   
   useEffect(() => {
-    fetch(`http://localhost:3000/recipes/${params.id}` , { method: "GET"})
+    getSearched();
     
-      .then((response) => response.json())
-      .then((recipes) => {
-        setRecipe(recipes);
-      });
-  }, []);
+  }, [params.id]);
+  
+  // useEffect(() => {
+  //   fetch(`http://localhost:3000/recipes/${params.id}` , { method: "GET"})
+    
+  //     .then((response) => response.json())
+  //     .then((recipes) => {
+  //       setRecipe(recipes);
+  //     });
+  // }, []);
   return (
     < DetailedWrapper>
     <div>
