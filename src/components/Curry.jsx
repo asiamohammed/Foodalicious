@@ -27,8 +27,9 @@ function Curry() {
             
             <img src={recipe.image} alt={recipe.name} />
             <p>{recipe.name}</p>
-            <RiDeleteBinLine/>
+            
             </Link>
+            <RiDeleteBinLine/>
            </Card>
         
 
