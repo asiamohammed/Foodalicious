@@ -4,7 +4,7 @@
 Asia Mohamed
 
 # Description
-This is a web application that allows users to view different recipes and how to make them.
+This is a web application that allows users to view different recipes, be able to check details of recipe and be able to delete a recipe. It uses a backend Sinatra API that uses Active Record to access and persist data in a database. (https://github.com/asiamohammed/phase-3-foodalicious-react-project)
 
 # Technologies Used
 * HTML<br>
