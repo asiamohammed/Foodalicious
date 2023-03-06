@@ -1,77 +1,65 @@
-import {useEffect, useState} from 'react'
-import styled from 'styled-components';
-import {useParams} from 'react-router-dom' 
-function Recipe() {
-   const [recipe, setRecipe] = useState([]);
-  let params = useParams();
+// 
 
-//   const getSearched = async (name) => {
+import React, { useState } from 'react';
 
-//     const data = await fetch(`http://localhost:3000/recipes/${params.name}`);
-//     const recipes = await data.json();
-//     setSearchedRecipe(recipes)
-//  };
+function Recipe({ id, variety, name,image, onDelete }) {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [ingredients, setIngredients] = useState('');
+  const [instructions, setInstructions] = useState('');
 
-  
-//   useEffect(() => {
-//     getSearched();
-    
-//   }, [params.name]);
-  
-  useEffect(() => {
-    fetch(`http://localhost:9292/recipe/${id}` , { method: "GET"})
-    
-      .then((response) => response.json())
-      .then((recipes) => {
-        setRecipe(recipes);
-      });
-  }, []);
+  const handleViewCardClick = () => {
+    fetch(`http://localhost:9292/recipe/${id}`)
+      .then(response => response.json())
+      .then(data => {
+        setIngredients(data.ingredients);
+        setInstructions(data.instructions);
+        setModalOpen(true);
+      })
+      .catch(error => console.log(error));
+  };
+
+  const handleDeleteCardClick = () => {
+    fetch(`http://localhost:9292/recipe/${id}`, { method: 'DELETE' })
+      .then(response => response.json())
+      .then(() => onDelete(id))
+      .catch(error => console.log(error));
+  };
+
   return (
-    < DetailedWrapper>
-    <div>
-      <h2>{recipe.name}</h2>
-      <img src= {recipe.image} alt=''/>
+    <div className="card">
+      <div className="card-body">
+        <h5 className="card-title">{variety}</h5>
+        <p className="card-text">{name}</p>
+        <img src={image} alt="" />
+        <button className="btn btn-primary" onClick={handleViewCardClick}>View Recipe</button>
+      </div>
+
+      {modalOpen && (
+        <div className="modal fade show" style={{ display: 'block' }} tabIndex="-1">
+          <div className="modal-dialog modal-dialog-centered" role="document">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title">{`Recipe ${id}`}</h5>
+                <button type="button" className="close" data-dismiss="modal" onClick={() => setModalOpen(false)}>
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div className="modal-body">
+                <p><strong>Ingredients:</strong></p>
+                <p>{ingredients}</p>
+                <p><strong>Instructions:</strong></p>
+                <p>{instructions}</p>
+              </div>
+              <div className="modal-footer">
+                <button type="button" className="btn btn-secondary" data-dismiss="modal" onClick={() => setModalOpen(false)}>Close</button>
+                <button type="button" className="btn btn-danger" onClick={handleDeleteCardClick}>Delete Recipe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
-    <Info>
-<Button>Ingredients</Button>
-<Button>Instructions</Button>
-    </Info>
-    
-    </DetailedWrapper>
   );
 }
-const DetailedWrapper = styled.div`
-    margin-top: 10rem;
-    margin-bottom: 5rem;  
-    display: flex;
-    .active {
-      background: linear-gradient(35deg, #494949, #313131);
-      color: white;
-    } 
-    h2{
-      margin-bottom: 2rem;
-    }
-    li{
-      font-size: 1.2 rem;
-      line-height: 2.5rem;
-    
-    }
-    ul{
-      margin-top: 2rem
-    }
-
-`;
-const Button = styled.button`
-padding: 1rem 2rem;
-color: #313131;
-background; white;
-border: 2px solid black;
-margin-right: 2rem;
-font-weight:600;
-`;
-const Info = styled.div`
-margin-left: 10rem;
-`
-
 
 export default Recipe;

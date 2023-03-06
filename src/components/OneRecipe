@@ -1,0 +1,35 @@
+// import {useEffect , useState} from 'react'
+import Curry from './Curry';
+import Drink from './Drink';
+import Muffins from './Muffins';
+import Recipe from './pages/Recipe';
+import Popular from './Popular';
+function OneRecipe() {
+    const[recipe, setRecipe] = useState([]);
+
+  useEffect(() => {
+    fetch('/recipe')
+      .then(response => response.json())
+      .then(data => setRecipe(data))
+      .catch(error => console.log(error));
+  }, []);
+
+  const handleCardDelete = (id) => {
+    setRecipe(recipe.filter(recipe => recipe.id !== id));
+  };
+
+  return (
+    <>
+    <div className="container">
+      {recipe.map(recipe => (
+        <Recipe key={recipe.id} id={recipe.id} title={recipe.title} description={recipe.description} onDelete={handleCardDelete} />
+      ))}
+    </div>
+    <Muffins onDelete={handleCardDelete}/>
+    <Curry onDelete={handleCardDelete}/>
+    <Drink onDelete={handleCardDelete}/>
+    <Popular onDelete={handleCardDelete}/>
+    </>
+  )
+}
+export default OneRecipe;

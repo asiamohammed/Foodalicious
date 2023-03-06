@@ -1,5 +1,7 @@
 import {TbSoup} from 'react-icons/tb';
 import {GiCupcake} from 'react-icons/gi';
+// import {BiDrink} from 'react-icons/bi';
+import {AiFillHome} from 'react-icons/ai';
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 
@@ -8,7 +10,7 @@ function Category() {
     <List>
       
       <SLink to= "">
-         
+         <AiFillHome/>
         <h4>Home</h4>
       </SLink>
       <SLink to= "/Muffins">
@@ -19,6 +21,10 @@ function Category() {
         <TbSoup/>
         <h4>Curry</h4>
       </SLink>
+      {/* <SLink to= "/Drink">
+      <BiDrink/>
+        <h4>Drink</h4>
+      </SLink> */}
      
     </List>
   );

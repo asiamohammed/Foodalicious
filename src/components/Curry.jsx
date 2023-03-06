@@ -1,10 +1,10 @@
 import {useEffect , useState} from 'react'
 import styled from 'styled-components';
-import {Link} from 'react-router-dom'
-import {RiDeleteBinLine} from 'react-icons/ri';
-import {AiOutlinePlusCircle} from 'react-icons/ai';
+// import {Link} from 'react-router-dom'
+import Recipe from '../pages/Recipe';
 
-function Curry() {
+
+function Curry(handleCardDelete) {
   
     const [curry, setCurry] = useState([]);
 
@@ -23,15 +23,10 @@ function Curry() {
           .map((recipe) => {
           return(
             
-           <Card key={recipe.id}>
-            <Link to ={'/recipe/' + recipe.id}>
-            
-            <img src={recipe.image} alt={recipe.name} />
-            <p>{recipe.name}</p>
-            
-            </Link>
-            <RiDeleteBinLine/> <AiOutlinePlusCircle/>
-           </Card>
+            <Card>
+          <Recipe key={recipe.id} id={recipe.id} image = {recipe.image} name={recipe.name} description={recipe.description} onDelete={handleCardDelete} />
+        
+</Card>
         
 
           );

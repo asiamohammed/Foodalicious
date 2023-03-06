@@ -9,16 +9,16 @@ import Recipe from '../pages/Recipe';
 
  
 
-function Muffins(handleCardDelete) {
+function Drink(handleCardDelete) {
 
- const [muffins, setMuffins] = useState([]);
+ const [drink, setDrink] = useState([]);
  
   useEffect(() => {
     fetch("http://localhost:9292/recipe" , { method: "GET"})
     
       .then((response) => response.json())
       .then((recipes) => {
-        setMuffins(recipes);
+        setDrink(recipes);
       });
   }, []);
   //  const handleDelete = (id) => {
@@ -33,7 +33,7 @@ function Muffins(handleCardDelete) {
  
   return (
     <Grid>
-       {muffins.filter((muffin) => muffin.variety ==="muffins")
+       {drink.filter((drink) => drink.variety ==="drinks")
           .map((recipe) => {
           return(
             
@@ -50,4 +50,4 @@ function Muffins(handleCardDelete) {
   
 }
 
-export default Muffins;
+export default Drink;
